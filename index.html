@@ -2,10 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Assignment8</title>
+<title>Assignment9</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Peralta&display=swap" rel="stylesheet">
-
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
 <style>
@@ -39,8 +38,8 @@
 
     #content {
         padding: 60px;
-    }
-
+	}
+    
     #title {
         font-family: "Peralta", serif;
         font-size: 56px;
@@ -77,6 +76,37 @@
         max-width: 850px;
         margin: 0 auto;
     }
+	
+    @media (max-width: 750px) {
+
+        body {
+            padding: 20px 0;
+        }
+
+        #content {
+            padding: 30px 20px;
+        }
+
+        #title {
+            font-size: 42px;   
+            line-height: 1.2;
+        }
+
+        #title-image {
+            width: 100%;          
+            max-width: none;
+            border-radius: 10px;
+        }
+
+        #paragraph {
+            font-size: 20px;      
+            line-height: 1.9;  
+        }
+
+        #paragraph:first-letter {
+            font-size: 60px;      
+        }
+    }
 </style>
 
 </head>
@@ -85,13 +115,13 @@
 
 <div id="page-box">
 
-    <img id="banner" src="images/garden.jpg" alt="Banner Image">
+    <img id="banner" src="garden.jpg" alt="Banner Image">
 
     <div id="content">
 
         <h1 id="title">The Joy of Gardening</h1>
 
-        <img id="title-image" src="images/gardenman.jpg" alt="Gardening Image">
+        <img id="title-image" src="gardenman.jpg" alt="Gardening Image">
 
         <p id="paragraph">
             Gardening is a rewarding hobby that fosters a deep connection with nature 
@@ -108,5 +138,3 @@
 
 </body>
 </html>
-
-
